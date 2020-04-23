@@ -8,7 +8,6 @@ sudo pacman -Syyu --noconfirm --needed \
     feh \
     arandr \
     picom \
-    dmenu \
     rofi \
     python-pywal \
     xfce4-appfinder \
