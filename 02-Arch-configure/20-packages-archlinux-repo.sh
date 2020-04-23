@@ -29,7 +29,9 @@ sudo pacman -Syyu --noconfirm --needed \
     tumbler \
     ffmpegthumbnailer \
     gvfs \
-    gvfs-mtp
+    gvfs-mtp\
+    rclone \
+    restic
     #variety
 
 echo "## Devel ##"
