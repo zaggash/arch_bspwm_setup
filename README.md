@@ -42,3 +42,8 @@
 - Enter in the `02-Arch-configure/` folder: `cd 02-Arch-configure/`
 - Start each main scripts one by one to finish the installation.
 - Reboot & you're done.
+
+## Activate the backup
+
+Setup the file in `03-Restick-backup` to schedule automatic backup.
+This is not setup automatically to avoid any accidental backup override.
