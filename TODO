@@ -1,0 +1,6 @@
+## Setup Grub 
+https://github.com/vinceliuice/grub2-themes
+AUR package : https://aur.archlinux.org/packages/grub2-theme-vimix-git/
+
+Need to edit PKGBUILD.
+Create my own AUR ?
