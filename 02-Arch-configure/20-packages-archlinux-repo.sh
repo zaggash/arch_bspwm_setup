@@ -53,6 +53,7 @@ sudo pacman -Syyu --noconfirm --needed \
     arc-gtk-theme \
     gtk-engine-murrine \
     accountsservice \
+    dunst \
     cronie \
     hwinfo \
     dmidecode \
