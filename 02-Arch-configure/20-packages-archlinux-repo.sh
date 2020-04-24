@@ -10,7 +10,6 @@ sudo pacman -Syyu --noconfirm --needed \
     picom \
     rofi \
     python-pywal \
-    xfce4-power-manager \
     xfce4-screenshooter \
     xfce4-notifyd \
     network-manager-applet \
