@@ -33,7 +33,7 @@ sudo pacman -Syyu --noconfirm --needed \
 echo "## Graphics ##"
 sudo pacman -Syyu --noconfirm --needed \
     neofetch \
-    scrot
+    maim
 
 echo "## Internet ##"
 sudo pacman -Syyu --noconfirm --needed \
