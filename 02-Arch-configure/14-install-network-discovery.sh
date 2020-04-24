@@ -4,8 +4,7 @@ set -e
 echo "## Install Network discovery packages ##"
 sudo pacman -Syyu --noconfirm --needed \
     avahi \
-    nss-mdns \
-    gvfs-smb
+    nss-mdns
 
 echo "## Enable avahi systemd ##"
 sudo systemctl enable avahi-daemon.service
