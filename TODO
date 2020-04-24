@@ -8,3 +8,7 @@ Create my own AUR ?
 ## Get rid of xfce4 packages
 - replace screenshooter
 - replace xfce4-notifyd
+
+## Edit restic script
+- Add upload internet test
+ - Do not execute if upload < 10 Mb/s
