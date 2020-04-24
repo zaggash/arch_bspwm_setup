@@ -10,8 +10,6 @@ sudo pacman -Syyu --noconfirm --needed \
     picom \
     rofi \
     python-pywal \
-    xfce4-screenshooter \
-    xfce4-notifyd \
     network-manager-applet \
     networkmanager-openvpn \
     lxappearance-gtk3 \
@@ -21,13 +19,6 @@ sudo pacman -Syyu --noconfirm --needed \
     zip \
     unzip \
     p7zip \
-    thunar \
-    thunar-archive-plugin \
-    thunar-volman \
-    tumbler \
-    ffmpegthumbnailer \
-    gvfs \
-    gvfs-mtp\
     rclone \
     restic
     #variety
@@ -42,7 +33,6 @@ sudo pacman -Syyu --noconfirm --needed \
 echo "## Graphics ##"
 sudo pacman -Syyu --noconfirm --needed \
     neofetch \
-    ristretto \
     scrot
 
 echo "## Internet ##"
