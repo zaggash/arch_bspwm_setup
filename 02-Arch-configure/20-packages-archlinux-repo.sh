@@ -13,7 +13,6 @@ sudo pacman -Syyu --noconfirm --needed \
     network-manager-applet \
     networkmanager-openvpn \
     lxappearance-gtk3 \
-    qt5ct \
     git \
     unrar \
     zip \
