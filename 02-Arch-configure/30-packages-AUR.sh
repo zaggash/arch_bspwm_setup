@@ -19,8 +19,6 @@ yay -Syyu --removemake --noconfirm \
     nerd-fonts-hack \
     nerd-fonts-noto-sans-regular-complete \
     xcursor-breeze \
-    sardi-icons \
-    surfn-icons-git \
     xcwd-git \
     polybar \
     betterlockscreen \
