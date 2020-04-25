@@ -19,6 +19,7 @@ yay -Syyu --removemake --noconfirm \
     nerd-fonts-hack \
     nerd-fonts-noto-sans-regular-complete \
     xcursor-breeze \
+    mojave-ct-icon-theme-git \
     xcwd-git \
     polybar \
     betterlockscreen \
