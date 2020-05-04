@@ -6,6 +6,7 @@ echo "## Install Thinkpad Carbon Carbon X1 Gen7 specific packages ##"
 sudo pacman -Syyu --noconfirm --needed \
 	throttled \
 	acpi_call \ # Used by tlp on thinkpad
+	acpid \ # Execute action in regards to some events
 	sof-firmware
 	
 echo "## Setup X1C7 sound/microphone ##"
