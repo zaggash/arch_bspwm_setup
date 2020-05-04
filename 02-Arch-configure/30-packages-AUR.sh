@@ -25,4 +25,5 @@ yay -Syyu --removemake --noconfirm \
     betterlockscreen \
     downgrade \
     pamac-aur \
+    informant \
     antigen
