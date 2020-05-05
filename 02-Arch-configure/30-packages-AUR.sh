@@ -26,4 +26,5 @@ yay -Syyu --removemake --noconfirm \
     downgrade \
     pamac-aur \
     informant \
-    antigen
+    antibody-bin \
+    starship-bin 
