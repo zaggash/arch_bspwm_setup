@@ -64,6 +64,7 @@ sudo pacman -Syyu --noconfirm --needed \
     htop \
     curl \
     wget \
+    fuse2 \
     xdg-user-dirs
 
 
