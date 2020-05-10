@@ -8,12 +8,12 @@ sudo pacman -Syyu --noconfirm --needed \
 	acpi_call \ # Used by tlp on thinkpad
 	sof-firmware
 	
-echo "## Setup X1C7 sound/microphone ##"
-echo "\
-options snd slots=snd_soc_skl_hda_dsp
-blacklist snd_hda_intel
-blacklist snd_soc_skl " \
-	> /etc/modprobe.d/alsa.conf
+#echo "## Setup X1C7 sound/microphone ##"
+#echo "\
+#options snd slots=snd_soc_skl_hda_dsp
+#blacklist snd_hda_intel
+#blacklist snd_soc_skl " \
+#	> /etc/modprobe.d/alsa.conf
 
 echo "## Setup Touchpad config ##"
 sudo install -Dm 644 system/X11/etc/X11/xorg.conf.d/30-touchpad.conf /etc/X11/xorg.conf.d/
