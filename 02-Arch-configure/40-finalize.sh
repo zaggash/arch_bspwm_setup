@@ -56,7 +56,7 @@ Target = pacman-mirrorlist
 Description = Updating /etc/pacman.d/mirrorlist with reflector and removing /etc/pacman.d/mirrorlist.pacnew
 When = PostTransaction
 Depends = reflector
-Exec = /bin/sh -c 'reflector --protocol https --latest 30 --number 20 --sort rate --save /etc/pacman.d/mirrorlist && rm -f /etc/pacman.d/mirrorlist.pacnew && echo \"[HOOK] Mirrorlist updated...\"'
+Exec = /bin/sh -c 'reflector --connection-timeout 2 -l 30 -f 15 -n 10 --sort rate --verbose --save /etc/pacman.d/mirrorlist && rm -f /etc/pacman.d/mirrorlist.pacnew && echo "[HOOK] Mirrorlist updated..."'
 " > /etc/pacman.d/hooks/mirrorupgrade.hook
 
 
