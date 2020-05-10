@@ -43,9 +43,9 @@ echo "## Multimedia ##"
 sudo pacman -Syyu --noconfirm --needed \
     vlc
 
-echo "## Office ##"
-sudo pacman -Syyu --noconfirm --needed \
-    libreoffice-fresh
+#echo "## Office ##"
+#sudo pacman -Syyu --noconfirm --needed \
+#    libreoffice-fresh
 
 echo "## System ##"
 sudo pacman -Syyu --noconfirm --needed \
@@ -61,6 +61,7 @@ sudo pacman -Syyu --noconfirm --needed \
     mlocate \
     xdotool \
     tree \
+    rsync \
     htop \
     curl \
     wget \
