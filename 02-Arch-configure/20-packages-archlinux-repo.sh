@@ -23,6 +23,7 @@ sudo pacman -Syyu --noconfirm --needed \
 
 echo "## Devel ##"
 sudo pacman -Syyu --noconfirm --needed \
+    openssh \
     alacritty \
     fzf \
     neovim \
