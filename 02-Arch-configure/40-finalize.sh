@@ -42,7 +42,7 @@ Target = *
 [Action]
 Description = Cleaning Pacman cache...
 When = PostTransaction
-Depends = paccache
+Depends = pacman-contrib
 Exec = /bin/sh -c 'paccache -r && echo \"[HOOK] Cache packages cleaned !\"'
 " > /etc/pacman.d/hooks/clean_package_cache.hook
 
