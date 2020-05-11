@@ -49,6 +49,7 @@ sudo pacman -Syyu --noconfirm --needed \
 
 echo "## System ##"
 sudo pacman -Syyu --noconfirm --needed \
+    pacman-contrib \
     arc-gtk-theme \
     gtk-engine-murrine \
     accountsservice \
