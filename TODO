@@ -1,10 +1,2 @@
-## Setup Grub 
-https://github.com/vinceliuice/grub2-themes
-AUR package : https://aur.archlinux.org/packages/grub2-theme-vimix-git/
-
 Need to edit PKGBUILD.
 Create my own AUR ?
-
-## Edit restic script
-- Add upload internet test
- - Do not execute if upload < 10 Mb/s
