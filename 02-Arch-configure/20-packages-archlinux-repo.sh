@@ -20,7 +20,6 @@ sudo pacman -Syyu --noconfirm --needed \
     p7zip \
     rclone \
     restic
-    #variety
 
 echo "## Devel ##"
 sudo pacman -Syyu --noconfirm --needed \
@@ -37,7 +36,8 @@ sudo pacman -Syyu --noconfirm --needed \
 echo "## Internet ##"
 sudo pacman -Syyu --noconfirm --needed \
     firefox \
-    youtube-dl
+    youtube-dl \
+    speedtest-cli
 
 echo "## Multimedia ##"
 sudo pacman -Syyu --noconfirm --needed \
