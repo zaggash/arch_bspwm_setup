@@ -12,13 +12,7 @@ sudo pacman -Syyu --noconfirm --needed \
     libcups \
     hplip \
     system-config-printer
-    ## First try without foomatic
-    # foomatic-db-engine
-    # foomatic-db \
-    # foomatic-db-ppds \
-    # foomatic-db-nonfree-ppds \
-    # foomatic-db-gutenprint-ppds
-
+    
 echo "## Enable cups systemd ##"
 sudo systemctl enable org.cups.cupsd.service
 
