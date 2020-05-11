@@ -26,4 +26,5 @@ yay -Syyu --removemake --noconfirm \
     downgrade \
     pamac-aur \
     informant \
-    antibody-bin
+    antibody-bin \
+    keybase-bin
