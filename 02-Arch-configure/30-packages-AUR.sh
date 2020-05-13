@@ -4,9 +4,9 @@ set -e
 if ! pacman -Qe yay > /dev/null
 then
   echo "## Install yay ##"
-  rm -Rf yay
-  git clone https://aur.archlinux.org/yay.git
-  cd yay
+  rm -Rf yay-bin
+  git clone https://aur.archlinux.org/yay-bin.git
+  cd yay-bin
   makepkg -sri --noconfirm --needed
 fi
 
