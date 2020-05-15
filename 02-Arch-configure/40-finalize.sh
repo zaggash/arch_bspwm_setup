@@ -68,12 +68,9 @@ sudo systemctl enable cronie.service
 sudo systemctl start cronie.service
 
 echo "## Apply betterlockscreen config ##"
-sudo install -d "/etc/systemd/system/betterlockscreen@$USER.service.d/"
-sudo echo "\
-[Service]
-ExecStart=
-ExecStart=/usr/bin/betterlockscreen --lock dimblur
-" > "/etc/systemd/system/betterlockscreen@$USER.service.d/override.conf"
+mkdir -p "~/.config/systemd/user"
+cp /usr/lib/systemd/system/betterlockscreen@.service ~/.config/systemd/user/betterlockscreen.service
+sed -i 's|^ExecStart.*|ExecStart=/usr/bin/betterlockscreen --lock dimblur|' ~/.config/systemd/user/betterlockscreen.service
 
 echo "## Enable betterlockscreen as $USER ##"
-sudo systemctl enable betterlockscreen@$USER
+systemctl --user enable betterlockscreen.service
