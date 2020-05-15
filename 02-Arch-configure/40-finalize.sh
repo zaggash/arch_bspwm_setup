@@ -74,3 +74,5 @@ sed -i 's|^ExecStart.*|ExecStart=/usr/bin/betterlockscreen --lock dimblur|' ~/.c
 
 echo "## Enable betterlockscreen as $USER ##"
 systemctl --user enable betterlockscreen.service
+echo "Do not forget to generate betterlockscreen wallpaper:"
+echo " >> $ betterlockscreen -u ~/.config/wallpapers/wall.jpg -b 2"
