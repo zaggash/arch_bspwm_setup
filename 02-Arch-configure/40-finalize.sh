@@ -67,12 +67,9 @@ echo "## Enable Cronie systemd ##"
 sudo systemctl enable cronie.service
 sudo systemctl start cronie.service
 
-echo "## Apply betterlockscreen config ##"
-mkdir -p "~/.config/systemd/user"
-cp /usr/lib/systemd/system/betterlockscreen@.service ~/.config/systemd/user/betterlockscreen.service
-sed -i 's|^ExecStart.*|ExecStart=/usr/bin/betterlockscreen --lock dimblur|' ~/.config/systemd/user/betterlockscreen.service
-
 echo "## Enable betterlockscreen as $USER ##"
-systemctl --user enable betterlockscreen.service
+sudo systemctl enable betterlockscreen@${$USER}.service
+
 echo "Do not forget to generate betterlockscreen wallpaper:"
 echo " >> $ betterlockscreen -u ~/.config/wallpapers/wall.jpg -b 2"
+echo " >> Check if service file has been updated on the upstream github repo !"
