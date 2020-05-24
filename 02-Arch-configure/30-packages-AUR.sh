@@ -7,7 +7,7 @@ then
   rm -Rf yay-bin
   git clone https://aur.archlinux.org/yay-bin.git
   cd yay-bin
-  makepkg -sri --noconfirm --needed
+  makepkg -sri --clean --noconfirm --needed
 fi
 
 echo "## Replace github yay with yay-bin from AUR ##"
