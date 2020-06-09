@@ -12,7 +12,7 @@ sudo pacman -Syyu --noconfirm --needed \
     python-pywal \
     network-manager-applet \
     networkmanager-openvpn \
-    lxappearance-gtk3 \
+    lxappearance \
     git \
     unrar \
     zip \
