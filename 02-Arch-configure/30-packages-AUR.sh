@@ -24,7 +24,6 @@ yay -Syyu --removemake --noconfirm \
     polybar \
     betterlockscreen \
     downgrade \
-    pamac-aur \
     informant \
     antibody-bin \
     keybase-bin
