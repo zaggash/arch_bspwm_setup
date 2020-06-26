@@ -53,6 +53,7 @@ sudo pacman -Syyu --noconfirm --needed \
     pacman-contrib \
     arc-gtk-theme \
     gtk-engine-murrine \
+    noto-fonts-emoji \
     accountsservice \
     dunst \
     cronie \
