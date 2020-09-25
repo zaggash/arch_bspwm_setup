@@ -32,6 +32,7 @@ pacman -Syyu --noconfirm --needed \
 echo "## Set time ##"
 ln -sf /usr/share/zoneinfo/Europe/Paris /etc/localtime
 hwclock --systohc
+systemctl enable systemd-timesyncd
 
 echo "## Set Locale ##"
 echo "\
