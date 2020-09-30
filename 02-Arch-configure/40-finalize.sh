@@ -5,7 +5,7 @@ echo "## Set X11 keymap ##"
 sudo localectl set-x11-keymap fr
 
 echo "## Setup journald ##"
-sudo sed 's/^#SystemMaxUse.*/SystemMaxUse=128M/g' /etc/systemd/journald.conf
+sudo sed -i 's/^#SystemMaxUse.*/SystemMaxUse=128M/g' /etc/systemd/journald.conf
 
 
 echo "## Setup pacman.conf ##"
